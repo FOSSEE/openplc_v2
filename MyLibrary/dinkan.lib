@@ -3,10 +3,10 @@ EESchema-LIBRARY Version 2.4
 #
 # Cap_tantalum_1206_3218
 #
-DEF ~Cap_tantalum_1206_3218 C 0 10 N Y 1 F N
+DEF Cap_tantalum_1206_3218 C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Cap_tantalum_1206_3218" 25 -100 50 H I L CNN
-F2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Hand" 38 -150 50 H I C CNN
+F1 "Cap_tantalum_1206_3218" -450 450 50 H I L CNN
+F2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Hand" 100 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  CP_*
@@ -23,10 +23,10 @@ ENDDEF
 #
 # D_Schottky_power
 #
-DEF ~D_Schottky_power D 0 40 N N 1 F N
+DEF D_Schottky_power D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky_power" 0 -100 50 H I C CNN
-F2 "Diodes_SMD:D_SMC_Handsoldering" 0 0 50 H I C CNN
+F2 "Diodes_SMD:D_SMC_Handsoldering" 0 200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  TO-???*
@@ -45,7 +45,7 @@ ENDDEF
 #
 # Opto-quad_LTV-847_smd
 #
-DEF ~Opto-quad_LTV-847_smd U 0 40 Y Y 4 F N
+DEF Opto-quad_LTV-847_smd U 0 40 Y Y 4 F N
 F0 "U" -150 200 50 H V C CNN
 F1 "Opto-quad_LTV-847_smd" 0 -200 50 H I C CNN
 F2 "Housings_DIP:DIP-16_W7.62mm_SMDSocket_SmallPads" 0 -300 50 H I C CNN
@@ -89,21 +89,21 @@ ENDDEF
 # R
 #
 DEF R R_0805_hand_us 0 0 N Y 1 F N
-F0 "R_0805_hand_us" 100 0 50 V I C CNN
-F1 "R" -100 0 50 V V C CNN
-F2 "Resistors_SMD:R_0805_HandSoldering" 40 -10 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
+F0 "R_0805_hand_us" 0 -200 50 H I C CNN
+F1 "R" 0 -100 50 H V C CNN
+F2 "Resistors_SMD:R_0805_HandSoldering" -50 150 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
 $FPLIST
  R_*
 $ENDFPLIST
 DRAW
-P 2 0 1 0 0 -90 0 -100 N
-P 2 0 1 0 0 90 0 100 N
-P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
-P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
-P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
+P 2 0 1 0 -90 0 -100 0 N
+P 2 0 1 0 90 0 100 0 N
+P 5 0 1 0 -90 0 -75 40 -60 0 -45 -40 -30 0 N
+P 5 0 1 0 -30 0 -15 40 0 0 15 -40 30 0 N
+P 5 0 1 0 30 0 45 40 60 0 75 -40 90 0 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -112,7 +112,7 @@ ENDDEF
 DEF power_L7812_smd U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
 F1 "power_L7812_smd" 0 125 50 H V L CNN
-F2 "TO_SOT_Packages_SMD:TO-263-2" 25 -150 50 H I L CIN
+F2 "TO_SOT_Packages_SMD:TO-263-2" -600 350 50 H I L CIN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
  TO?252*
@@ -129,10 +129,10 @@ ENDDEF
 #
 # power_LM2576
 #
-DEF ~power_LM2576 U 0 10 Y Y 1 F N
+DEF power_LM2576 U 0 10 Y Y 1 F N
 F0 "U" -400 250 50 H V L CNN
-F1 "power_LM2576" 0 250 50 H I L CNN
-F2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" 0 -250 50 H I L CIN
+F1 "power_LM2576" -250 300 50 H I L CNN
+F2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" -750 450 50 H I L CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  TO?263*
