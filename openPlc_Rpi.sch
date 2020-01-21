@@ -1043,19 +1043,13 @@ Text Label 19900 8950 0    50   Italic 0
 Text Label 19900 8100 0    50   Italic 0
 4
 Wire Wire Line
-	12950 7150 13150 7150
+	12950 7950 13150 7950
 Wire Wire Line
 	13150 6450 12950 6450
 Wire Wire Line
 	13150 6350 12950 6350
 Wire Wire Line
-	11100 7050 11350 7050
-Wire Wire Line
-	11100 6650 11350 6650
-Wire Wire Line
-	11100 6450 11350 6450
-Wire Wire Line
-	11100 6350 11350 6350
+	11150 7150 11350 7150
 Text Notes 9850 1600 0    394  ~ 0
 OpenPLC V2
 NoConn ~ 13150 6350
@@ -1231,36 +1225,36 @@ DO_6
 Text GLabel 17100 6850 0    39   Input ~ 0
 DO_7
 Wire Wire Line
-	12950 7350 13150 7350
+	12950 7050 13400 7050
 Wire Wire Line
-	11100 7550 11350 7550
+	10900 6750 11350 6750
 Wire Wire Line
-	11100 7650 11350 7650
+	10900 7950 11350 7950
 Wire Wire Line
-	11100 7750 11350 7750
+	10900 7450 11350 7450
 Wire Wire Line
-	12950 7950 13150 7950
+	12950 7150 13400 7150
 Wire Wire Line
 	11350 6850 11100 6850
 NoConn ~ 11100 6850
 Wire Wire Line
 	12950 6950 13150 6950
 Wire Wire Line
-	11350 6750 11100 6750
+	11350 7550 11150 7550
 Wire Wire Line
-	11100 7950 11350 7950
+	11150 7650 11350 7650
 Wire Wire Line
-	11100 7450 11350 7450
+	11150 7750 11350 7750
 Wire Wire Line
-	11100 7850 11350 7850
+	11150 7250 11350 7250
 Wire Wire Line
-	12950 8050 13150 8050
+	11350 6650 11150 6650
 Wire Wire Line
-	12950 7050 13150 7050
+	12950 7350 13150 7350
 Wire Wire Line
-	11350 7150 11100 7150
+	11350 7050 10900 7050
 Wire Wire Line
-	11350 7250 11100 7250
+	11350 7850 10900 7850
 $Comp
 L Isolator:LTV-847 U3
 U 1 1 5CA82F87
@@ -1722,37 +1716,33 @@ Connection ~ 19400 9750
 Connection ~ 19100 5300
 Wire Wire Line
 	18150 5300 18400 5300
-Text GLabel 11100 7850 0    50   Output ~ 0
+Text GLabel 11150 7250 0    50   Output ~ 0
 DO_0
-Text GLabel 11100 7050 0    50   Output ~ 0
+Text GLabel 11150 7150 0    50   Output ~ 0
 DO_1
-Text GLabel 13150 8050 2    50   Output ~ 0
+Text GLabel 11150 6650 0    50   Output ~ 0
 DO_2
-Text GLabel 13150 7150 2    50   Output ~ 0
+Text GLabel 13150 7950 2    50   Output ~ 0
 DO_3
-Text GLabel 13150 7050 2    50   Output ~ 0
+Text GLabel 13150 7350 2    50   Output ~ 0
 DO_4
-Text GLabel 11100 7450 0    50   Output ~ 0
+Text GLabel 11150 7750 0    50   Output ~ 0
 DO_5
-Text GLabel 11100 7950 0    50   Output ~ 0
+Text GLabel 11150 7650 0    50   Output ~ 0
 DO_6
-Text GLabel 11100 6750 0    50   Output ~ 0
+Text GLabel 11150 7550 0    50   Output ~ 0
 DO_7
-Text GLabel 11100 7250 0    50   Input ~ 0
+Text GLabel 10900 7850 0    50   Input ~ 0
 DI_0
-Text GLabel 13150 7950 2    50   Input ~ 0
+Text GLabel 13400 7150 2    50   Input ~ 0
 DI_3
-Text GLabel 13150 7350 2    50   Input ~ 0
+Text GLabel 13400 7050 2    50   Input ~ 0
 DI_4
-Text GLabel 11100 7750 0    50   Input ~ 0
+Text GLabel 10900 7450 0    50   Input ~ 0
 DI_5
-Text GLabel 11100 6650 0    50   Input ~ 0
-DI_2
-Text GLabel 11100 7150 0    50   Input ~ 0
+Text GLabel 10900 7050 0    50   Input ~ 0
 DI_1
-Text GLabel 11100 7650 0    50   Input ~ 0
-DI_6
-Text GLabel 11100 7550 0    50   Input ~ 0
+Text GLabel 10900 6750 0    50   Input ~ 0
 DI_7
 Text Label 2450 7050 0    50   ~ 0
 DIGND
@@ -2494,10 +2484,6 @@ Wire Wire Line
 	19250 13250 18950 13250
 Text Label 18950 13250 0    50   ~ 0
 RXD
-Text Label 11100 6450 0    50   ~ 0
-RXD
-Text Label 11100 6350 0    50   ~ 0
-TXD
 Wire Wire Line
 	19250 13550 18950 13550
 Text Label 18950 13550 0    50   ~ 0
@@ -3265,4 +3251,18 @@ Wire Wire Line
 Connection ~ 9950 11000
 Wire Wire Line
 	9950 11000 10200 11000
+Text Label 11100 6350 0    50   ~ 0
+TXD
+Text Label 11100 6450 0    50   ~ 0
+RXD
+Wire Wire Line
+	11100 6350 11350 6350
+Wire Wire Line
+	11100 6450 11350 6450
+Text GLabel 13400 8050 2    50   Input ~ 0
+DI_2
+Wire Wire Line
+	13400 8050 12950 8050
+Text GLabel 10900 7950 0    50   Input ~ 0
+DI_6
 $EndSCHEMATC
