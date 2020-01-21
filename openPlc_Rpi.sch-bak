@@ -3251,17 +3251,6 @@ Wire Wire Line
 Connection ~ 9950 11000
 Wire Wire Line
 	9950 11000 10200 11000
-$Comp
-L Connector:Raspberry_Pi_2_3 J?
-U 1 1 5E1C54FF
-P 9300 7250
-F 0 "J?" H 9300 8900 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 9300 8800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm" H 9300 7250 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 9300 7250 50  0001 C CNN
-	1    9300 7250
-	1    0    0    -1  
-$EndComp
 Text Label 11100 6350 0    50   ~ 0
 TXD
 Text Label 11100 6450 0    50   ~ 0

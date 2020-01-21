@@ -3219,38 +3219,6 @@ F 3 "~" H 13500 13400 50  0001 C CNN
 	1    13500 13400
 	1    0    0    -1  
 $EndComp
-$Comp
-L 4xxx:14528 U9
-U 1 1 5E168E86
-P 9350 11100
-F 0 "U9" H 9350 11567 50  0000 C CNN
-F 1 "14528" H 9350 11476 50  0000 C CNN
-F 2 "" H 9350 11100 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/MC14528B-D.PDF" H 9350 11100 50  0001 C CNN
-	1    9350 11100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 11000 9950 11000
-Wire Wire Line
-	10200 11000 10200 11300
-Wire Wire Line
-	10200 11300 9850 11300
-Wire Wire Line
-	8850 11400 8850 11200
-Connection ~ 8850 11100
-Wire Wire Line
-	8850 11100 8850 10900
-Connection ~ 8850 11200
-Wire Wire Line
-	8850 11200 8850 11100
-Wire Wire Line
-	9350 11700 9950 11700
-Wire Wire Line
-	9950 11700 9950 11000
-Connection ~ 9950 11000
-Wire Wire Line
-	9950 11000 10200 11000
 Text Label 11100 6350 0    50   ~ 0
 TXD
 Text Label 11100 6450 0    50   ~ 0
