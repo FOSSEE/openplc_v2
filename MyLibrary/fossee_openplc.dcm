@@ -1,0 +1,347 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP +24V
+D Power symbol creates a global label with name "+24V"
+K power-flag
+$ENDCMP
+#
+$CMP +5V
+D Power symbol creates a global label with name "+5V"
+K power-flag
+$ENDCMP
+#
+$CMP ADS1018IDGS
+D  Ultrasmall, Low-Power, SPI-Compatible, 12-Bit, Analog-to-Digital Converter With Internal Reference and Temperature Sensor, VSSOP-10
+K 12 bit 4 channel SPI ADC
+F http://www.ti.com/lit/ds/symlink/ads1018.pdf
+$ENDCMP
+#
+$CMP ADS1118IDGS
+D Ultrasmall, Low-Power, SPI-Compatible, 16-Bit Analog-to-Digital Converter with Internal Reference and Temperature Sensor, VSSOP-10
+K 16 bit 4 channel SPI ADC
+F http://www.ti.com/lit/ds/symlink/ads1118.pdf
+$ENDCMP
+#
+$CMP AMS1117-1.5
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-1.8
+D 1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-2.5
+D 1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-2.85
+D 1A Low Dropout regulator, positive, 2.85V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-3.3
+D 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-5.0
+D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AP1117-15
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-18
+D 1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-25
+D 1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-33
+D 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP AP1117-50
+D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP B320
+D 20V 3A Schottky Barrier Rectifier Diode, SMC
+K diode Schottky
+F http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf
+$ENDCMP
+#
+$CMP B330
+D 30V 3A Schottky Barrier Rectifier Diode, SMC
+K diode Schottky
+F http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf
+$ENDCMP
+#
+$CMP B340
+D 40V 3A Schottky Barrier Rectifier Diode, SMC
+K diode Schottky
+F http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf
+$ENDCMP
+#
+$CMP B350
+D 50V 3A Schottky Barrier Rectifier Diode, SMC
+K diode Schottky
+F http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf
+$ENDCMP
+#
+$CMP B360
+D 60V 3A Schottky Barrier Rectifier Diode, SMC
+K diode Schottky
+F http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf
+$ENDCMP
+#
+$CMP C_0805
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP Capacitor_Polarized_10x10
+D Polarized capacitor
+K cap capacitor
+F https://www.mouser.in/datasheet/2/315/ABA0000C1145-947633.pdf
+$ENDCMP
+#
+$CMP Capacitor_Polarized_8x10
+D Polarized capacitor
+K cap capacitor
+F https://www.mouser.in/datasheet/2/293/e-wt-30307.pdf
+$ENDCMP
+#
+$CMP D_SMB
+D Diode, filled shape
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener
+D Zener diode, filled shape
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_SMA
+D Zener diode, filled shape
+K diode
+F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP LD1117S12TR_SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT-223
+K REGULATOR LDO 1.2V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S18TR_SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT-223
+K REGULATOR LDO 1.8V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S25TR_SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, SOT-223
+K REGULATOR LDO 2.5V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S33TR_SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S50TR_SOT223
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223
+K REGULATOR LDO 5.0V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LTV-847
+D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
+K NPN DC Quad Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
+$ENDCMP
+#
+$CMP L_Core_Ferrite
+D Inductor with ferrite core
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP NCP1117-1.5_SOT223
+D 1A Low drop-out regulator, Fixed Output 1.5V, SOT-223
+K REGULATOR LDO 1.5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-1.8_SOT223
+D 1A Low drop-out regulator, Fixed Output 1.8V, SOT-223
+K REGULATOR LDO 1.8V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-12_SOT223
+D 1A Low drop-out regulator, Fixed Output 12V, SOT-223
+K REGULATOR LDO 12V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.0_SOT223
+D 1A Low drop-out regulator, Fixed Output 2V, SOT-223
+K REGULATOR LDO 2V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.5_SOT223
+D 1A Low drop-out regulator, Fixed Output 2.5V, SOT-223
+K REGULATOR LDO 2.5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-2.85_SOT223
+D 1A Low drop-out regulator, Fixed Output 2.85V, SOT-223
+K REGULATOR LDO 2.85V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-3.3_SOT223
+D 1A Low drop-out regulator, Fixed Output 3.3V, SOT-223
+K REGULATOR LDO 3.3V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117-5.0_SOT223
+D 1A Low drop-out regulator, Fixed Output 5V, SOT-223
+K REGULATOR LDO 5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP R_0805
+D Resistor, US symbol
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_1206
+D Resistor, US symbol
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP Raspberry_Pi_2_3
+D expansion header for Raspberry Pi 2 & 3
+K raspberrypi gpio
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
+$ENDCMP
+#
+$CMP Screw_Terminal_01x02
+D Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP Screw_Terminal_01x04
+D Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP Screw_Terminal_01x10
+D Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP Screw_Terminal_01x12
+D Generic screw terminal, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP ULN2801A
+D Darlington Transistor Arrays, SOIC18/DIP18
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2802A
+D Darlington Transistor Arrays, SOIC18/DIP18
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2803A
+D Darlington Transistor Arrays, SOIC18/DIP18
+K Darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+$ENDCMP
+#
+$CMP ULN2804A
+D Darlington Transistor Arrays, SOIC18/DIP18
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2805A
+D Darlington Transistor Arrays, SOIC18/DIP18
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP opt_isolator_PC847
+D DC Quad Optocoupler, Vce 35V, CTR 50-300%, DIP16
+K NPN DC Quad Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP power_LM2576
+D 12V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator TO-263
+K Step-Down Voltage Regulator 12V 3A
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP relay_G5LE-1
+D Omron G5LE relay, Miniature Single Pole, SPDT, 10A
+K Miniature Single Pole Relay
+F http://www.omron.com/ecb/products/pdf/en-g5le.pdf
+$ENDCMP
+#
+#End Doc Library

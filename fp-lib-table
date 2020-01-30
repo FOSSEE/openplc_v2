@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name dinkan)(type KiCad)(uri /home/easwaran/allProjects/kicad/openPlc_Rpi/MyLibrary)(options "")(descr ""))
+  (lib (name openPlc_Rpi)(type KiCad)(uri ${KIPRJMOD}/MyLibrary/openPlc_Rpi.pretty)(options "")(descr ""))
+  (lib (name fossee_openplc)(type KiCad)(uri ${KIPRJMOD}/MyLibrary/fossee_openplc.pretty)(options "")(descr ""))
 )
