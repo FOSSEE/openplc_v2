@@ -2432,17 +2432,6 @@ F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 19700 6200 50  0001 C 
 	1    19700 6600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Raspberry_Pi_2_3 J1
-U 1 1 5BF3B5F0
-P 12150 7250
-F 0 "J1" H 12150 8900 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 12150 8800 50  0000 C CNN
-F 2 "openPlc_Rpi:Raspberry_Pi_Zero_Socketed_THT_FaceUp_SingleMountingHoles_copy" H 12150 7250 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 12150 7250 50  0001 C CNN
-	1    12150 7250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12950 6650 13150 6650
 Wire Wire Line
@@ -3233,4 +3222,15 @@ Wire Wire Line
 	13400 8050 12950 8050
 Text GLabel 10900 7950 0    50   Input ~ 0
 DI_6
+$Comp
+L fossee_openplc:Raspberry_Pi_2_3 J1
+U 1 1 5E38381A
+P 12150 7250
+F 0 "J1" H 12150 8731 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 12150 8640 50  0000 C CNN
+F 2 "fossee_openplc:Raspberry_Pi_Zero_FaceUp_SingleMountingHole" H 12150 7250 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 12150 7250 50  0001 C CNN
+	1    12150 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

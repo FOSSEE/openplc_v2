@@ -378,11 +378,11 @@
     (add_net /9)
   )
 
-  (module openPlc_Rpi:Raspberry_Pi_Zero_Socketed_THT_FaceUp_SingleMountingHoles_copy (layer F.Cu) (tedit 5E26F3F2) (tstamp 5C9C479D)
+  (module fossee_openplc:Raspberry_Pi_Zero_FaceUp_SingleMountingHole (layer F.Cu) (tedit 5E329E29) (tstamp 5C9C479D)
     (at 136.8806 98.7552 270)
     (descr "Raspberry Pi Zero using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_Zero_1p2.pdf")
     (tags "raspberry pi zero through hole")
-    (path /5BF3B5F0)
+    (path /5E38381A)
     (fp_text reference J1 (at 6.27 24.13) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
