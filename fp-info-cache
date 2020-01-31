@@ -1,4 +1,4 @@
-33188014436493
+37929457072493
 fossee_openplc
 CP_Elec_8x10
 SMD capacitor, aluminum electrolytic, Nichicon, 8.0x10mm
@@ -56,6 +56,13 @@ Diode SMC (DO-214AB)
 2
 2
 fossee_openplc
+LED_0805_2012Metric
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode
+0
+2
+2
+fossee_openplc
 L_12x12mm_H6mm
 Choke, SMD, 12x12mm 6mm height
 Choke SMD
@@ -91,6 +98,13 @@ Omron Relay SPDT
 5
 5
 fossee_openplc
+SOIC-8_3.9x4.9mm_P1.27mm
+SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+fossee_openplc
 SOIC-18W_7.5x11.6mm_P1.27mm
 SOIC, 18 Pin (JEDEC MS-013AB, https://www.analog.com/media/en/package-pcb-resources/package/33254132129439rw_18.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
@@ -98,11 +112,11 @@ SOIC SO
 18
 18
 fossee_openplc
-SOT-223-3_TabPin2
-module CMS SOT223 4 pins
-CMS SOT
+SOT-23
+SOT-23, Standard
+SOT-23
 0
-4
+3
 3
 fossee_openplc
 TO-263-5_TabPin3
@@ -111,6 +125,13 @@ D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
 0
 10
 5
+fossee_openplc
+TSOT-23
+3-pin TSOT23 package, http://www.analog.com.tw/pdf/All_In_One.pdf
+TSOT-23
+0
+3
+3
 fossee_openplc
 TSSOP-10_3x3mm_P0.5mm
 TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)
