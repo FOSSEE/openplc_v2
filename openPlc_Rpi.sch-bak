@@ -256,146 +256,14 @@ Text GLabel 17100 7350 0    39   Input ~ 0
 DO_2
 Text GLabel 17100 7250 0    39   Input ~ 0
 DO_3
-$Comp
-L Device:R R14
-U 1 1 5BED2707
-P 4050 13350
-F 0 "R14" H 4120 13396 50  0000 L CNN
-F 1 "5k" H 4120 13305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3980 13350 50  0001 C CNN
-F 3 "~" H 4050 13350 50  0001 C CNN
-	1    4050 13350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 5BED27BB
-P 3650 13150
-F 0 "R10" V 3443 13150 50  0000 C CNN
-F 1 "10k" V 3534 13150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3580 13150 50  0001 C CNN
-F 3 "~" H 3650 13150 50  0001 C CNN
-	1    3650 13150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5BED2822
-P 4050 13550
-F 0 "#PWR0108" H 4050 13300 50  0001 C CNN
-F 1 "GND" H 4055 13377 50  0000 C CNN
-F 2 "" H 4050 13550 50  0001 C CNN
-F 3 "" H 4050 13550 50  0001 C CNN
-	1    4050 13550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 5BED77CD
-P 4050 14000
-F 0 "R15" H 4120 14046 50  0000 L CNN
-F 1 "5k" H 4120 13955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3980 14000 50  0001 C CNN
-F 3 "~" H 4050 14000 50  0001 C CNN
-	1    4050 14000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5BED77D4
-P 3650 13800
-F 0 "R11" V 3443 13800 50  0000 C CNN
-F 1 "10k" V 3534 13800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3580 13800 50  0001 C CNN
-F 3 "~" H 3650 13800 50  0001 C CNN
-	1    3650 13800
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 5BED77DB
-P 4050 14200
-F 0 "#PWR0109" H 4050 13950 50  0001 C CNN
-F 1 "GND" H 4055 14027 50  0000 C CNN
-F 2 "" H 4050 14200 50  0001 C CNN
-F 3 "" H 4050 14200 50  0001 C CNN
-	1    4050 14200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 13800 4050 13800
 Wire Wire Line
 	4050 13800 4050 13850
-$Comp
-L Device:R R16
-U 1 1 5BED9437
-P 4050 14650
-F 0 "R16" H 4120 14696 50  0000 L CNN
-F 1 "5k" H 4120 14605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3980 14650 50  0001 C CNN
-F 3 "~" H 4050 14650 50  0001 C CNN
-	1    4050 14650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 5BED943E
-P 3650 14450
-F 0 "R12" V 3443 14450 50  0000 C CNN
-F 1 "10k" V 3534 14450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3580 14450 50  0001 C CNN
-F 3 "~" H 3650 14450 50  0001 C CNN
-	1    3650 14450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 5BED9445
-P 4050 14850
-F 0 "#PWR0110" H 4050 14600 50  0001 C CNN
-F 1 "GND" H 4055 14677 50  0000 C CNN
-F 2 "" H 4050 14850 50  0001 C CNN
-F 3 "" H 4050 14850 50  0001 C CNN
-	1    4050 14850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 14450 4050 14450
 Wire Wire Line
 	4050 14450 4050 14500
-$Comp
-L Device:R R13
-U 1 1 5BEDB20B
-P 4050 12700
-F 0 "R13" H 4120 12746 50  0000 L CNN
-F 1 "5k" H 4120 12655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3980 12700 50  0001 C CNN
-F 3 "~" H 4050 12700 50  0001 C CNN
-	1    4050 12700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5BEDB212
-P 3650 12500
-F 0 "R9" V 3443 12500 50  0000 C CNN
-F 1 "10k" V 3534 12500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3580 12500 50  0001 C CNN
-F 3 "~" H 3650 12500 50  0001 C CNN
-	1    3650 12500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 5BEDB219
-P 4050 12900
-F 0 "#PWR0111" H 4050 12650 50  0001 C CNN
-F 1 "GND" H 4055 12727 50  0000 C CNN
-F 2 "" H 4050 12900 50  0001 C CNN
-F 3 "" H 4050 12900 50  0001 C CNN
-	1    4050 12900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 12500 4050 12500
 Wire Wire Line
@@ -421,17 +289,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 13850 5000 13850
 Connection ~ 4050 14450
-$Comp
-L power:GND #PWR0112
-U 1 1 5BEE6A0F
-P 5400 14250
-F 0 "#PWR0112" H 5400 14000 50  0001 C CNN
-F 1 "GND" H 5405 14077 50  0000 C CNN
-F 2 "" H 5400 14250 50  0001 C CNN
-F 3 "" H 5400 14250 50  0001 C CNN
-	1    5400 14250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 13150 6650 13150
 Wire Wire Line
@@ -439,16 +296,12 @@ Wire Wire Line
 Wire Wire Line
 	6650 13750 6650 14150
 Wire Wire Line
-	5400 14250 5400 14150
-Wire Wire Line
 	5400 14150 6650 14150
 Connection ~ 5400 14150
 Wire Wire Line
 	4050 14150 4050 14200
 Wire Wire Line
 	4050 14850 4050 14800
-Wire Wire Line
-	4050 13550 4050 13500
 Wire Wire Line
 	4050 12850 4050 12900
 Text GLabel 5800 13750 2    50   Input ~ 0
@@ -716,19 +569,6 @@ F 3 "" H 5750 7000 50  0001 C CNN
 	1    5750 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x04 J3
-U 1 1 5BF91875
-P 2400 13400
-F 0 "J3" H 2320 12975 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" V 2650 13250 50  0001 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 2400 13400 50  0001 C CNN
-F 3 "~" H 2400 13400 50  0001 C CNN
-	1    2400 13400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 12500 2900 12500
 Wire Wire Line
 	2900 13300 2600 13300
 Wire Wire Line
@@ -966,17 +806,6 @@ F 1 "ULN2803A" H 17500 7526 50  0000 C CNN
 F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 17550 6400 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 17600 6850 50  0001 C CNN
 	1    17500 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Analog_ADC:ADS1018IDGS U6
-U 1 1 5BF4E6A0
-P 5400 13650
-F 0 "U6" H 5400 14328 50  0000 C CNN
-F 1 "ADS1018IDGS" H 5400 14237 50  0000 C CNN
-F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 5350 13600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ads1018.pdf" H 4500 14050 50  0001 C CNN
-	1    5400 13650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2432,17 +2261,6 @@ F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 19700 6200 50  0001 C 
 	1    19700 6600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Raspberry_Pi_2_3 J1
-U 1 1 5BF3B5F0
-P 12150 7250
-F 0 "J1" H 12150 8900 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 12150 8800 50  0000 C CNN
-F 2 "openPlc_Rpi:Raspberry_Pi_Zero_Socketed_THT_FaceUp_SingleMountingHoles_copy" H 12150 7250 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 12150 7250 50  0001 C CNN
-	1    12150 7250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12950 6650 13150 6650
 Wire Wire Line
@@ -2928,17 +2746,6 @@ $EndComp
 Wire Wire Line
 	13800 14750 13900 14750
 $Comp
-L Device:C C4
-U 1 1 5BEE6BD5
-P 6650 13600
-F 0 "C4" H 6535 13554 50  0000 R CNN
-F 1 "100n" H 6535 13645 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6688 13450 50  0001 C CNN
-F 3 "~" H 6650 13600 50  0001 C CNN
-	1    6650 13600
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x10 J14
 U 1 1 5CF5E806
 P 2250 7050
@@ -3233,4 +3040,197 @@ Wire Wire Line
 	13400 8050 12950 8050
 Text GLabel 10900 7950 0    50   Input ~ 0
 DI_6
+$Comp
+L fossee_openplc:Raspberry_Pi_2_3 J1
+U 1 1 5E38381A
+P 12150 7250
+F 0 "J1" H 12150 8731 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 12150 8640 50  0000 C CNN
+F 2 "fossee_openplc:Raspberry_Pi_Zero_FaceUp_SingleMountingHole" H 12150 7250 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 12150 7250 50  0001 C CNN
+	1    12150 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 12500 2900 12500
+$Comp
+L fossee_openplc:R_0805 R9
+U 1 1 5E3C1657
+P 3650 12500
+F 0 "R9" H 3650 12705 50  0000 C CNN
+F 1 "10k" H 3650 12614 50  0000 C CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 12650 50  0001 C CNN
+F 3 "~" V 3650 12500 50  0001 C CNN
+	1    3650 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:R_0805 R10
+U 1 1 5E494C94
+P 3650 13150
+F 0 "R10" H 3650 13355 50  0000 C CNN
+F 1 "10k" H 3650 13264 50  0000 C CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 13300 50  0001 C CNN
+F 3 "~" V 3650 13150 50  0001 C CNN
+	1    3650 13150
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:R_0805 R11
+U 1 1 5E4996E8
+P 3650 13800
+F 0 "R11" H 3650 14005 50  0000 C CNN
+F 1 "10k" H 3650 13914 50  0000 C CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 13950 50  0001 C CNN
+F 3 "~" V 3650 13800 50  0001 C CNN
+	1    3650 13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:R_0805 R12
+U 1 1 5E49A574
+P 3650 14450
+F 0 "R12" H 3650 14655 50  0000 C CNN
+F 1 "10k" H 3650 14564 50  0000 C CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3600 14600 50  0001 C CNN
+F 3 "~" V 3650 14450 50  0001 C CNN
+	1    3650 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:R_0805 R13
+U 1 1 5E4E4234
+P 4050 12700
+F 0 "R13" V 4096 12632 50  0000 R CNN
+F 1 "5k" V 4005 12632 50  0000 R CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 12850 50  0001 C CNN
+F 3 "~" V 4050 12700 50  0001 C CNN
+	1    4050 12700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fossee_openplc:R_0805 R14
+U 1 1 5E57BB2B
+P 4050 13350
+F 0 "R14" V 4096 13282 50  0000 R CNN
+F 1 "5k" V 4005 13282 50  0000 R CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 13500 50  0001 C CNN
+F 3 "~" V 4050 13350 50  0001 C CNN
+	1    4050 13350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 13500 4050 13550
+$Comp
+L fossee_openplc:R_0805 R15
+U 1 1 5E57F39C
+P 4050 14000
+F 0 "R15" V 4096 13932 50  0000 R CNN
+F 1 "5k" V 4005 13932 50  0000 R CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 14150 50  0001 C CNN
+F 3 "~" V 4050 14000 50  0001 C CNN
+	1    4050 14000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fossee_openplc:R_0805 R16
+U 1 1 5E57F99D
+P 4050 14650
+F 0 "R16" V 4096 14582 50  0000 R CNN
+F 1 "5k" V 4005 14582 50  0000 R CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 14800 50  0001 C CNN
+F 3 "~" V 4050 14650 50  0001 C CNN
+	1    4050 14650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L fossee_openplc:Screw_Terminal_01x04 J2
+U 1 1 5E58F5A3
+P 2400 13400
+F 0 "J2" H 2318 13717 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 2318 13626 50  0000 C CNN
+F 2 "fossee_openplc:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 2400 13400 50  0001 C CNN
+F 3 "~" H 2400 13400 50  0001 C CNN
+	1    2400 13400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:C_0805 C4
+U 1 1 5E5FADD3
+P 6650 13600
+F 0 "C4" H 6765 13646 50  0000 L CNN
+F 1 "100n" H 6765 13555 50  0000 L CNN
+F 2 "fossee_openplc:C_0805_2012Metric" H 6688 13450 50  0001 C CNN
+F 3 "~" H 6650 13600 50  0001 C CNN
+	1    6650 13600
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:ADS1018IDGS U?
+U 1 1 5E5FDE16
+P 5400 13650
+F 0 "U?" H 5400 14331 50  0000 C CNN
+F 1 "ADS1018IDGS" H 5400 14240 50  0000 C CNN
+F 2 "fossee_openplc:TSSOP-10_3x3mm_P0.5mm" H 5350 13600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1018.pdf" H 4500 14050 50  0001 C CNN
+	1    5400 13650
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:GND #PWR?
+U 1 1 5E63250D
+P 4050 12900
+F 0 "#PWR?" H 4050 12650 50  0001 C CNN
+F 1 "GND" H 4055 12727 50  0000 C CNN
+F 2 "" H 4050 12900 50  0001 C CNN
+F 3 "" H 4050 12900 50  0001 C CNN
+	1    4050 12900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:GND #PWR?
+U 1 1 5E632879
+P 4050 13550
+F 0 "#PWR?" H 4050 13300 50  0001 C CNN
+F 1 "GND" H 4055 13377 50  0000 C CNN
+F 2 "" H 4050 13550 50  0001 C CNN
+F 3 "" H 4050 13550 50  0001 C CNN
+	1    4050 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:GND #PWR?
+U 1 1 5E6335CF
+P 4050 14200
+F 0 "#PWR?" H 4050 13950 50  0001 C CNN
+F 1 "GND" H 4055 14027 50  0000 C CNN
+F 2 "" H 4050 14200 50  0001 C CNN
+F 3 "" H 4050 14200 50  0001 C CNN
+	1    4050 14200
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:GND #PWR?
+U 1 1 5E633969
+P 4050 14850
+F 0 "#PWR?" H 4050 14600 50  0001 C CNN
+F 1 "GND" H 4055 14677 50  0000 C CNN
+F 2 "" H 4050 14850 50  0001 C CNN
+F 3 "" H 4050 14850 50  0001 C CNN
+	1    4050 14850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 14250 5400 14150
+$Comp
+L fossee_openplc:GND #PWR?
+U 1 1 5E633CB8
+P 5400 14250
+F 0 "#PWR?" H 5400 14000 50  0001 C CNN
+F 1 "GND" H 5405 14077 50  0000 C CNN
+F 2 "" H 5400 14250 50  0001 C CNN
+F 3 "" H 5400 14250 50  0001 C CNN
+	1    5400 14250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
