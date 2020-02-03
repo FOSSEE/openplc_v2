@@ -115,12 +115,6 @@ K LED diode
 F ~
 $ENDCMP
 #
-$CMP LTV-847
-D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
-K NPN DC Quad Optocoupler
-F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
-$ENDCMP
-#
 $CMP L_Core_Ferrite_smd_12x12
 D Inductor with ferrite core
 K inductor choke coil reactor magnetic
@@ -182,9 +176,9 @@ F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
 $ENDCMP
 #
 $CMP opt_isolator_PC847
-D DC Quad Optocoupler, Vce 35V, CTR 50-300%, DIP16
+D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
 K NPN DC Quad Optocoupler
-F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
 $ENDCMP
 #
 $CMP power_L7812_smd

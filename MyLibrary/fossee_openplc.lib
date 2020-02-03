@@ -821,11 +821,10 @@ ENDDEF
 # opt_isolator_PC847
 #
 DEF opt_isolator_PC847 U 0 40 Y Y 4 F N
-F0 "U" -200 200 50 H V L CNN
-F1 "opt_isolator_PC847" 0 200 50 H V L CNN
-F2 "fossee_openplc:TerminalBlock_Phoenix_MKDS-1,5-10-5.08_1x10_P5.08mm_Horizontal" -200 -200 50 H I L CIN
+F0 "U" -200 -200 50 H V L CNN
+F1 "opt_isolator_PC847" 0 -200 50 H V L CNN
+F2 "fossee_openplc:DIP-16_W8.89mm_SMDSocket_LongPads" -200 200 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
-ALIAS LTV-847
 $FPLIST
  DIP*W7.62mm*
 $ENDFPLIST

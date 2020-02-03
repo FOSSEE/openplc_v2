@@ -5,6 +5,7 @@
 *.000
 *.bak
 *.bck
+*-bak
 *.kicad_pcb-bak
 *~
 _autosave-*
@@ -27,3 +28,6 @@ _autosave-*
 
 # Folders
 /workingBranch/*
+
+#scripts
+*.bash
