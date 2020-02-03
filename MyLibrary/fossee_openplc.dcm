@@ -175,34 +175,10 @@ K screw terminal
 F ~
 $ENDCMP
 #
-$CMP ULN2801A
-D Darlington Transistor Arrays, SOIC18/DIP18
-K darlington transistor array
-F http://www.promelec.ru/pdf/1536.pdf
-$ENDCMP
-#
-$CMP ULN2802A
-D Darlington Transistor Arrays, SOIC18/DIP18
-K darlington transistor array
-F http://www.promelec.ru/pdf/1536.pdf
-$ENDCMP
-#
 $CMP ULN2803A
 D Darlington Transistor Arrays, SOIC18/DIP18
 K Darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
-$ENDCMP
-#
-$CMP ULN2804A
-D Darlington Transistor Arrays, SOIC18/DIP18
-K darlington transistor array
-F http://www.promelec.ru/pdf/1536.pdf
-$ENDCMP
-#
-$CMP ULN2805A
-D Darlington Transistor Arrays, SOIC18/DIP18
-K darlington transistor array
-F http://www.promelec.ru/pdf/1536.pdf
 $ENDCMP
 #
 $CMP opt_isolator_PC847

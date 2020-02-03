@@ -111,12 +111,12 @@ F 3 "" H 11650 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L fossee_openplc:C_0805 C1
 U 1 1 5BEB7E2A
 P 17150 7900
 F 0 "C1" V 16990 7900 50  0000 C CNN
 F 1 "100nf" V 16899 7900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 17188 7750 50  0001 C CNN
+F 2 "fossee_openplc:C_0805_2012Metric" H 17188 7750 50  0001 C CNN
 F 3 "~" H 17150 7900 50  0001 C CNN
 	1    17150 7900
 	0    -1   -1   0   
@@ -124,45 +124,45 @@ $EndComp
 Wire Wire Line
 	17500 7900 17300 7900
 $Comp
-L Device:D_Zener D1
+L fossee_openplc:D_Zener_1206 D1
 U 1 1 5BEBD1E9
 P 19000 7650
 F 0 "D1" V 18954 7729 50  0000 L CNN
 F 1 "D_Zener" V 19045 7729 50  0000 L CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 19000 7650 50  0001 C CNN
+F 2 "fossee_openplc:D_1206_3216Metric" H 19000 7650 50  0001 C CNN
 F 3 "~" H 19000 7650 50  0001 C CNN
 	1    19000 7650
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D2
+L fossee_openplc:D_Zener_1206 D2
 U 1 1 5BEBD285
 P 19000 8400
 F 0 "D2" V 18954 8321 50  0000 R CNN
 F 1 "D_Zener" V 19045 8321 50  0000 R CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 19000 8400 50  0001 C CNN
+F 2 "fossee_openplc:D_1206_3216Metric" H 19000 8400 50  0001 C CNN
 F 3 "~" H 19000 8400 50  0001 C CNN
 	1    19000 8400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D3
+L fossee_openplc:D_Zener_1206 D3
 U 1 1 5BEBD2CF
 P 19000 9250
 F 0 "D3" V 18954 9171 50  0000 R CNN
 F 1 "D_Zener" V 19045 9171 50  0000 R CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 19000 9250 50  0001 C CNN
+F 2 "fossee_openplc:D_1206_3216Metric" H 19000 9250 50  0001 C CNN
 F 3 "~" H 19000 9250 50  0001 C CNN
 	1    19000 9250
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D4
+L fossee_openplc:D_Zener_1206 D4
 U 1 1 5BEBD325
 P 19000 10050
 F 0 "D4" V 18954 9971 50  0000 R CNN
 F 1 "D_Zener" V 19045 9971 50  0000 R CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 19000 10050 50  0001 C CNN
+F 2 "fossee_openplc:D_1206_3216Metric" H 19000 10050 50  0001 C CNN
 F 3 "~" H 19000 10050 50  0001 C CNN
 	1    19000 10050
 	0    1    1    0   
@@ -591,12 +591,12 @@ Wire Wire Line
 	2900 14450 3500 14450
 Connection ~ 19400 8950
 $Comp
-L Transistor_Array:ULN2803A U8
+L fossee_openplc:ULN2803A U8
 U 1 1 5BF4D5DF
 P 17500 7050
 F 0 "U8" H 17500 7617 50  0000 C CNN
 F 1 "ULN2803A" H 17500 7526 50  0000 C CNN
-F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 17550 6400 50  0001 L CNN
+F 2 "fossee_openplc:SOIC-18W_7.5x11.6mm_P1.27mm" H 17550 6400 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf" H 17600 6850 50  0001 C CNN
 	1    17500 7050
 	1    0    0    -1  
@@ -608,12 +608,12 @@ Wire Wire Line
 Wire Wire Line
 	19000 8550 19000 8750
 $Comp
-L Connector:Screw_Terminal_01x12 J5
+L fossee_openplc:Screw_Terminal_01x12 J5
 U 1 1 5C23AF1C
 P 21550 8850
 F 0 "J5" H 21630 8842 50  0000 L CNN
 F 1 "Screw_Terminal_01x12" V 21750 8400 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal" H 21550 8850 50  0001 C CNN
+F 2 "fossee_openplc:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal" H 21550 8850 50  0001 C CNN
 F 3 "~" H 21550 8850 50  0001 C CNN
 	1    21550 8850
 	1    0    0    -1  
@@ -697,45 +697,45 @@ DI_2
 Text Label 6150 5050 0    50   ~ 0
 DI_3
 $Comp
-L Device:D_Zener D7
+L fossee_openplc:D_Zener_1206 D7
 U 1 1 5C78E40D
 P 19100 4200
 F 0 "D7" V 19054 4121 50  0000 R CNN
 F 1 "D_Zener" V 19145 4121 50  0000 R CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 19100 4200 50  0001 C CNN
+F 2 "fossee_openplc:D_1206_3216Metric" H 19100 4200 50  0001 C CNN
 F 3 "~" H 19100 4200 50  0001 C CNN
 	1    19100 4200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D8
+L fossee_openplc:D_Zener_1206 D8
 U 1 1 5C78E414
 P 19100 4950
 F 0 "D8" V 19054 4871 50  0000 R CNN
 F 1 "D_Zener" V 19145 4871 50  0000 R CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 19100 4950 50  0001 C CNN
+F 2 "fossee_openplc:D_1206_3216Metric" H 19100 4950 50  0001 C CNN
 F 3 "~" H 19100 4950 50  0001 C CNN
 	1    19100 4950
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D9
+L fossee_openplc:D_Zener_1206 D9
 U 1 1 5C78E41B
 P 19100 5800
 F 0 "D9" V 19054 5721 50  0000 R CNN
 F 1 "D_Zener" V 19145 5721 50  0000 R CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 19100 5800 50  0001 C CNN
+F 2 "fossee_openplc:D_1206_3216Metric" H 19100 5800 50  0001 C CNN
 F 3 "~" H 19100 5800 50  0001 C CNN
 	1    19100 5800
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Zener D10
+L fossee_openplc:D_Zener_1206 D10
 U 1 1 5C78E422
 P 19100 6600
 F 0 "D10" V 19054 6521 50  0000 R CNN
 F 1 "D_Zener" V 19145 6521 50  0000 R CNN
-F 2 "Diode_SMD:D_1206_3216Metric" H 19100 6600 50  0001 C CNN
+F 2 "fossee_openplc:D_1206_3216Metric" H 19100 6600 50  0001 C CNN
 F 3 "~" H 19100 6600 50  0001 C CNN
 	1    19100 6600
 	0    1    1    0   
@@ -1235,12 +1235,12 @@ DI_6
 Text Label 6150 7500 0    50   ~ 0
 DI_7
 $Comp
-L Connector:Screw_Terminal_01x12 J7
+L fossee_openplc:Screw_Terminal_01x12 J7
 U 1 1 5CBB002E
 P 21550 5600
 F 0 "J7" H 21630 5592 50  0000 L CNN
 F 1 "Screw_Terminal_01x12" V 21750 5150 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal" H 21550 5600 50  0001 C CNN
+F 2 "fossee_openplc:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal" H 21550 5600 50  0001 C CNN
 F 3 "~" H 21550 5600 50  0001 C CNN
 	1    21550 5600
 	1    0    0    -1  
@@ -1401,21 +1401,21 @@ Wire Notes Line
 Wire Notes Line
 	1500 15200 1500 11600
 $Comp
-L Device:R_US R33
+L fossee_openplc:R_0805 R33
 U 1 1 5C82D01B
 P 18400 4050
-F 0 "R33" H 18468 4096 50  0000 L CNN
-F 1 "220R" H 18468 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18440 4040 50  0001 C CNN
+F 0 "R33" V 18350 3850 50  0000 L CNN
+F 1 "220R" V 18450 3800 50  0000 L CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18440 4040 50  0001 C CNN
 F 3 "~" H 18400 4050 50  0001 C CNN
 	1    18400 4050
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	17500 7900 17500 8000
 Connection ~ 17500 7900
 $Comp
-L power:GND #PWR0135
+L fossee_openplc:GND #PWR0135
 U 1 1 5C82F697
 P 17500 8000
 F 0 "#PWR0135" H 17500 7750 50  0001 C CNN
@@ -1426,7 +1426,7 @@ F 3 "" H 17500 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0136
+L fossee_openplc:+5V #PWR0136
 U 1 1 5C8518E7
 P 17500 6200
 F 0 "#PWR0136" H 17500 6050 50  0001 C CNN
@@ -1442,12 +1442,12 @@ Connection ~ 17500 6400
 Wire Wire Line
 	17500 6400 17900 6400
 $Comp
-L Device:LED D11
+L fossee_openplc:LED_ALT D11
 U 1 1 5C8D4269
 P 18400 4350
 F 0 "D11" V 18438 4233 50  0000 R CNN
 F 1 "LED" V 18347 4233 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18400 4350 50  0001 C CNN
+F 2 "fossee_openplc:LED_0805_2012Metric" H 18400 4350 50  0001 C CNN
 F 3 "~" H 18400 4350 50  0001 C CNN
 	1    18400 4350
 	0    -1   -1   0   
@@ -1459,23 +1459,23 @@ Wire Wire Line
 	18400 3900 19100 3900
 Connection ~ 19100 3900
 $Comp
-L Device:R_US R34
+L fossee_openplc:R_0805 R34
 U 1 1 5C8F5754
 P 18400 4800
-F 0 "R34" H 18468 4846 50  0000 L CNN
-F 1 "220R" H 18468 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18440 4790 50  0001 C CNN
+F 0 "R34" V 18350 4600 50  0000 L CNN
+F 1 "220R" V 18450 4550 50  0000 L CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18440 4790 50  0001 C CNN
 F 3 "~" H 18400 4800 50  0001 C CNN
 	1    18400 4800
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D12
+L fossee_openplc:LED_ALT D12
 U 1 1 5C8F575B
 P 18400 5100
 F 0 "D12" V 18438 4983 50  0000 R CNN
 F 1 "LED" V 18347 4983 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18400 5100 50  0001 C CNN
+F 2 "fossee_openplc:LED_0805_2012Metric" H 18400 5100 50  0001 C CNN
 F 3 "~" H 18400 5100 50  0001 C CNN
 	1    18400 5100
 	0    -1   -1   0   
@@ -1486,34 +1486,34 @@ Connection ~ 18400 5300
 Wire Wire Line
 	18400 5300 19100 5300
 $Comp
-L Device:R_US R35
+L fossee_openplc:R_0805 R35
 U 1 1 5C93767D
 P 18400 5650
-F 0 "R35" H 18468 5696 50  0000 L CNN
-F 1 "220R" H 18468 5605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18440 5640 50  0001 C CNN
+F 0 "R35" V 18350 5450 50  0000 L CNN
+F 1 "220R" V 18450 5400 50  0000 L CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18440 5640 50  0001 C CNN
 F 3 "~" H 18400 5650 50  0001 C CNN
 	1    18400 5650
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D13
+L fossee_openplc:LED_ALT D13
 U 1 1 5C937684
 P 18400 5950
 F 0 "D13" V 18438 5833 50  0000 R CNN
 F 1 "LED" V 18347 5833 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18400 5950 50  0001 C CNN
+F 2 "fossee_openplc:LED_0805_2012Metric" H 18400 5950 50  0001 C CNN
 F 3 "~" H 18400 5950 50  0001 C CNN
 	1    18400 5950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D14
+L fossee_openplc:LED_ALT D14
 U 1 1 5C958D01
 P 18450 6750
 F 0 "D14" V 18488 6633 50  0000 R CNN
 F 1 "LED" V 18397 6633 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18450 6750 50  0001 C CNN
+F 2 "fossee_openplc:LED_0805_2012Metric" H 18450 6750 50  0001 C CNN
 F 3 "~" H 18450 6750 50  0001 C CNN
 	1    18450 6750
 	0    -1   -1   0   
@@ -1527,12 +1527,12 @@ Connection ~ 19100 6300
 Wire Wire Line
 	19100 6300 19500 6300
 $Comp
-L Device:LED D15
+L fossee_openplc:LED_ALT D15
 U 1 1 5C99C5DB
 P 18550 7800
 F 0 "D15" V 18588 7683 50  0000 R CNN
 F 1 "LED" V 18497 7683 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18550 7800 50  0001 C CNN
+F 2 "fossee_openplc:LED_0805_2012Metric" H 18550 7800 50  0001 C CNN
 F 3 "~" H 18550 7800 50  0001 C CNN
 	1    18550 7800
 	0    -1   -1   0   
@@ -1545,12 +1545,12 @@ Connection ~ 19000 7350
 Wire Wire Line
 	19000 7350 19400 7350
 $Comp
-L Device:LED D16
+L fossee_openplc:LED_ALT D16
 U 1 1 5C9E0802
 P 18450 8550
 F 0 "D16" V 18488 8433 50  0000 R CNN
 F 1 "LED" V 18397 8433 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18450 8550 50  0001 C CNN
+F 2 "fossee_openplc:LED_0805_2012Metric" H 18450 8550 50  0001 C CNN
 F 3 "~" H 18450 8550 50  0001 C CNN
 	1    18450 8550
 	0    -1   -1   0   
@@ -1558,12 +1558,12 @@ $EndComp
 Wire Wire Line
 	18450 8100 19000 8100
 $Comp
-L Device:LED D17
+L fossee_openplc:LED_ALT D17
 U 1 1 5CA0201E
 P 18350 9400
 F 0 "D17" V 18388 9283 50  0000 R CNN
 F 1 "LED" V 18297 9283 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18350 9400 50  0001 C CNN
+F 2 "fossee_openplc:LED_0805_2012Metric" H 18350 9400 50  0001 C CNN
 F 3 "~" H 18350 9400 50  0001 C CNN
 	1    18350 9400
 	0    -1   -1   0   
@@ -1571,23 +1571,23 @@ $EndComp
 Wire Wire Line
 	18350 8950 19000 8950
 $Comp
-L Device:R_US R40
+L fossee_openplc:R_0805 R40
 U 1 1 5CA23819
 P 18300 9900
-F 0 "R40" H 18368 9946 50  0000 L CNN
-F 1 "220R" H 18368 9855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18340 9890 50  0001 C CNN
+F 0 "R40" V 18368 9946 50  0000 L CNN
+F 1 "220R" V 18250 9950 50  0000 L CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18340 9890 50  0001 C CNN
 F 3 "~" H 18300 9900 50  0001 C CNN
 	1    18300 9900
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D18
+L fossee_openplc:LED_ALT D18
 U 1 1 5CA23820
 P 18300 10200
 F 0 "D18" V 18338 10083 50  0000 R CNN
 F 1 "LED" V 18247 10083 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 18300 10200 50  0001 C CNN
+F 2 "fossee_openplc:LED_0805_2012Metric" H 18300 10200 50  0001 C CNN
 F 3 "~" H 18300 10200 50  0001 C CNN
 	1    18300 10200
 	0    -1   -1   0   
@@ -1746,133 +1746,133 @@ $EndComp
 Text Label 19900 9750 0    50   Italic 0
 10
 $Comp
-L Device:R_US R36
+L fossee_openplc:R_0805 R36
 U 1 1 5C958CFA
 P 18450 6450
-F 0 "R36" H 18518 6496 50  0000 L CNN
-F 1 "220R" H 18518 6405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18490 6440 50  0001 C CNN
+F 0 "R36" V 18400 6250 50  0000 L CNN
+F 1 "220R" V 18500 6200 50  0000 L CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18490 6440 50  0001 C CNN
 F 3 "~" H 18450 6450 50  0001 C CNN
 	1    18450 6450
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US R37
+L fossee_openplc:R_0805 R37
 U 1 1 5C99C5D4
 P 18550 7500
-F 0 "R37" H 18618 7546 50  0000 L CNN
-F 1 "220R" H 18618 7455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18590 7490 50  0001 C CNN
+F 0 "R37" V 18500 7300 50  0000 L CNN
+F 1 "220R" V 18600 7250 50  0000 L CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18590 7490 50  0001 C CNN
 F 3 "~" H 18550 7500 50  0001 C CNN
 	1    18550 7500
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US R38
+L fossee_openplc:R_0805 R38
 U 1 1 5C9E07FB
 P 18450 8250
-F 0 "R38" H 18518 8296 50  0000 L CNN
-F 1 "220R" H 18518 8205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18490 8240 50  0001 C CNN
+F 0 "R38" V 18400 8050 50  0000 L CNN
+F 1 "220R" V 18500 8000 50  0000 L CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18490 8240 50  0001 C CNN
 F 3 "~" H 18450 8250 50  0001 C CNN
 	1    18450 8250
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US R39
+L fossee_openplc:R_0805 R39
 U 1 1 5CA02017
 P 18350 9100
-F 0 "R39" H 18418 9146 50  0000 L CNN
-F 1 "220R" H 18418 9055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18390 9090 50  0001 C CNN
+F 0 "R39" V 18300 8900 50  0000 L CNN
+F 1 "220R" V 18400 8850 50  0000 L CNN
+F 2 "fossee_openplc:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 18390 9090 50  0001 C CNN
 F 3 "~" H 18350 9100 50  0001 C CNN
 	1    18350 9100
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
-L Relay:G5LE-1 K1
+L fossee_openplc:relay_G5LE-1 K1
 U 1 1 5CADF52D
 P 19600 7650
 F 0 "K1" H 20030 7696 50  0000 L CNN
 F 1 "G5LE-1" H 20030 7605 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 20050 7600 50  0001 L CNN
+F 2 "fossee_openplc:Relay_SPDT_Omron-G5LE-1" H 20050 7600 50  0001 L CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 19600 7250 50  0001 C CNN
 	1    19600 7650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:G5LE-1 K2
+L fossee_openplc:relay_G5LE-1 K2
 U 1 1 5CB2272C
 P 19600 8400
 F 0 "K2" H 20030 8446 50  0000 L CNN
 F 1 "G5LE-1" H 20030 8355 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 20050 8350 50  0001 L CNN
+F 2 "fossee_openplc:Relay_SPDT_Omron-G5LE-1" H 20050 8350 50  0001 L CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 19600 8000 50  0001 C CNN
 	1    19600 8400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:G5LE-1 K3
+L fossee_openplc:relay_G5LE-1 K3
 U 1 1 5CB2372E
 P 19600 9250
 F 0 "K3" H 20030 9296 50  0000 L CNN
 F 1 "G5LE-1" H 20030 9205 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 20050 9200 50  0001 L CNN
+F 2 "fossee_openplc:Relay_SPDT_Omron-G5LE-1" H 20050 9200 50  0001 L CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 19600 8850 50  0001 C CNN
 	1    19600 9250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:G5LE-1 K4
+L fossee_openplc:relay_G5LE-1 K4
 U 1 1 5CB241D5
 P 19600 10050
 F 0 "K4" H 20030 10096 50  0000 L CNN
 F 1 "G5LE-1" H 20030 10005 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 20050 10000 50  0001 L CNN
+F 2 "fossee_openplc:Relay_SPDT_Omron-G5LE-1" H 20050 10000 50  0001 L CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 19600 9650 50  0001 C CNN
 	1    19600 10050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:G5LE-1 K5
+L fossee_openplc:relay_G5LE-1 K5
 U 1 1 5CB25CFF
 P 19700 4200
 F 0 "K5" H 20130 4246 50  0000 L CNN
 F 1 "G5LE-1" H 20130 4155 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 20150 4150 50  0001 L CNN
+F 2 "fossee_openplc:Relay_SPDT_Omron-G5LE-1" H 20150 4150 50  0001 L CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 19700 3800 50  0001 C CNN
 	1    19700 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:G5LE-1 K6
+L fossee_openplc:relay_G5LE-1 K6
 U 1 1 5CB268F8
 P 19700 4950
 F 0 "K6" H 20130 4996 50  0000 L CNN
 F 1 "G5LE-1" H 20130 4905 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 20150 4900 50  0001 L CNN
+F 2 "fossee_openplc:Relay_SPDT_Omron-G5LE-1" H 20150 4900 50  0001 L CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 19700 4550 50  0001 C CNN
 	1    19700 4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:G5LE-1 K7
+L fossee_openplc:relay_G5LE-1 K7
 U 1 1 5CB289D7
 P 19700 5800
 F 0 "K7" H 20130 5846 50  0000 L CNN
 F 1 "G5LE-1" H 20130 5755 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 20150 5750 50  0001 L CNN
+F 2 "fossee_openplc:Relay_SPDT_Omron-G5LE-1" H 20150 5750 50  0001 L CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 19700 5400 50  0001 C CNN
 	1    19700 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:G5LE-1 K8
+L fossee_openplc:relay_G5LE-1 K8
 U 1 1 5CB29AFA
 P 19700 6600
 F 0 "K8" H 20130 6646 50  0000 L CNN
 F 1 "G5LE-1" H 20130 6555 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 20150 6550 50  0001 L CNN
+F 2 "fossee_openplc:Relay_SPDT_Omron-G5LE-1" H 20150 6550 50  0001 L CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 19700 6200 50  0001 C CNN
 	1    19700 6600
 	1    0    0    -1  
