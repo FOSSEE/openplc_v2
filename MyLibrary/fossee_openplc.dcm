@@ -10,6 +10,11 @@ D Power symbol creates a global label with name "+24V"
 K power-flag
 $ENDCMP
 #
+$CMP +3V3
+D Power symbol creates a global label with name "+3V3"
+K power-flag
+$ENDCMP
+#
 $CMP +5V
 D Power symbol creates a global label with name "+5V"
 K power-flag
@@ -57,6 +62,12 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP Cap_tantalum_1206_3218
+D Polarized capacitor
+K cap capacitor
+F https://datasheet.octopart.com/T491A334K035AT-Kemet-datasheet-5314837.pdf
+$ENDCMP
+#
 $CMP Capacitor_Polarized_10x10
 D Polarized capacitor
 K cap capacitor
@@ -90,6 +101,12 @@ $ENDCMP
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
 K power-flag
+$ENDCMP
+#
+$CMP JST_Conn_01x04
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
 $ENDCMP
 #
 $CMP LED_ALT
@@ -192,6 +209,12 @@ $CMP opt_isolator_PC847
 D DC Quad Optocoupler, Vce 35V, CTR 50-300%, DIP16
 K NPN DC Quad Optocoupler
 F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP power_L7812_smd
+D Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
 $ENDCMP
 #
 $CMP power_LM2576

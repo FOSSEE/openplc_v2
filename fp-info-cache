@@ -1,4 +1,4 @@
-16949051016251325
+16955373904852325
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75215,6 +75215,13 @@ capacitor
 2
 2
 fossee_openplc
+C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+fossee_openplc
 DIP-16_W8.89mm_SMDSocket_LongPads
 16-lead though-hole mounted DIP package, row spacing 8.89 mm (350 mils), SMDSocket, LongPads
 THT DIP DIL PDIP 2.54mm 8.89mm 350mil SMDSocket LongPads
@@ -75249,6 +75256,13 @@ Diode SMC (DO-214AB)
 0
 2
 2
+fossee_openplc
+JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
+JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
+0
+4
+4
 fossee_openplc
 LED_0805_2012Metric
 LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
@@ -75318,6 +75332,20 @@ SOT-23, Standard
 SOT-23
 0
 3
+3
+fossee_openplc
+SOT-223-3_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+fossee_openplc
+TO-263-2
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+7
 3
 fossee_openplc
 TO-263-5_TabPin3
