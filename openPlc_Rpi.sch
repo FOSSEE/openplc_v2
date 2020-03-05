@@ -1876,9 +1876,9 @@ F 3 "~" H 14050 6650 50  0001 C CNN
 	1    14050 6650
 	1    0    0    -1  
 $EndComp
-Text GLabel 13850 6750 0    50   Input ~ 0
-SDA
 Text GLabel 13850 6650 0    50   Input ~ 0
+SDA
+Text GLabel 13850 6750 0    50   Input ~ 0
 SCL
 Text Notes 13650 6450 0    50   ~ 0
 Two Wire / I2C

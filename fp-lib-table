@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name openPlc_Rpi)(type KiCad)(uri ${KIPRJMOD}/MyLibrary/openPlc_Rpi.pretty)(options "")(descr ""))
   (lib (name fossee_openplc)(type KiCad)(uri ${KIPRJMOD}/MyLibrary/fossee_openplc.pretty)(options "")(descr ""))
 )
