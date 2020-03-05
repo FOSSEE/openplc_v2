@@ -28,6 +28,7 @@ _autosave-*
 
 # Folders
 /workingBranch/*
+/bom
 
 #scripts
 *.bash
