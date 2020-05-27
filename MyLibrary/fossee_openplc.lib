@@ -99,6 +99,7 @@ F0 "U" 50 550 50 H V L CNN
 F1 "ADS1018IDGS" 50 450 50 H V L CNN
 F2 "fossee_openplc:TSSOP-10_3x3mm_P0.5mm" -50 -50 50 H I C CNN
 F3 "" -900 400 50 H I C CNN
+F4 "https://in.element14.com/texas-instruments/ads1018idgst/adc-12bit-2-5-5v-3-3ksps-10vssop/dp/3004283?st=ads1018" 0 0 50 H I C CNN "part"
 ALIAS ADS1118IDGS_smd
 $FPLIST
  TSSOP*3x3mm*P0.5mm*

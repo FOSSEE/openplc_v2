@@ -5,8 +5,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "OpenPLC V2"
-Date ""
-Rev "0.1"
+Date "2020-05-27"
+Rev "0.1a"
 Comp "FOSSEE"
 Comment1 "by Vishnu  Easwaran E"
 Comment2 ""
@@ -686,14 +686,6 @@ Connection ~ 5950 6150
 Wire Wire Line
 	5950 6700 6150 6700
 Connection ~ 5950 6700
-Text Label 6150 6700 0    50   ~ 0
-DI_0
-Text Label 6150 6150 0    50   ~ 0
-DI_1
-Text Label 6150 5600 0    50   ~ 0
-DI_2
-Text Label 6150 5050 0    50   ~ 0
-DI_3
 $Comp
 L fossee_openplc:D_Zener_1206 D7
 U 1 1 5C78E40D
@@ -1221,14 +1213,6 @@ Wire Wire Line
 Connection ~ 5950 9150
 Wire Wire Line
 	5950 9150 6150 9150
-Text Label 6150 9150 0    50   ~ 0
-DI_4
-Text Label 6150 8600 0    50   ~ 0
-DI_5
-Text Label 6150 8050 0    50   ~ 0
-DI_6
-Text Label 6150 7500 0    50   ~ 0
-DI_7
 $Comp
 L fossee_openplc:Screw_Terminal_01x12 J7
 U 1 1 5CBB002E
@@ -1351,10 +1335,6 @@ Text GLabel 11150 7550 0    50   Output ~ 0
 DO_7
 Text GLabel 10900 7850 0    50   Input ~ 0
 DI_0
-Text GLabel 13400 7150 2    50   Input ~ 0
-DI_3
-Text GLabel 13400 7050 2    50   Input ~ 0
-DI_4
 Text GLabel 10900 7450 0    50   Input ~ 0
 DI_5
 Text GLabel 10900 7050 0    50   Input ~ 0
@@ -1950,21 +1930,8 @@ Wire Wire Line
 	11100 6450 11350 6450
 Text GLabel 13400 8050 2    50   Input ~ 0
 DI_2
-Wire Wire Line
-	13400 8050 12950 8050
 Text GLabel 10900 7950 0    50   Input ~ 0
 DI_6
-$Comp
-L fossee_openplc:Raspberry_Pi_2_3 J1
-U 1 1 5E38381A
-P 12150 7250
-F 0 "J1" H 12150 8731 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 12150 8640 50  0000 C CNN
-F 2 "fossee_openplc:Raspberry_Pi_Zero_FaceUp_SingleMountingHole" H 12150 7250 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 12150 7250 50  0001 C CNN
-	1    12150 7250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3500 12500 2900 12500
 $Comp
@@ -2077,17 +2044,6 @@ F 1 "100n" H 6765 13555 50  0000 L CNN
 F 2 "fossee_openplc:C_0805_2012Metric" H 6688 13450 50  0001 C CNN
 F 3 "~" H 6650 13600 50  0001 C CNN
 	1    6650 13600
-	1    0    0    -1  
-$EndComp
-$Comp
-L fossee_openplc:ADS1018IDGS U6
-U 1 1 5E5FDE16
-P 5400 13650
-F 0 "U6" H 5400 14331 50  0000 C CNN
-F 1 "ADS1018IDGS" H 5400 14240 50  0000 C CNN
-F 2 "fossee_openplc:TSSOP-10_3x3mm_P0.5mm" H 5350 13600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ads1018.pdf" H 4500 14050 50  0001 C CNN
-	1    5400 13650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3232,4 +3188,48 @@ F 3 "" H 19650 12850 50  0001 C CNN
 	1    19650 12850
 	1    0    0    -1  
 $EndComp
+$Comp
+L fossee_openplc:ADS1018IDGS U6
+U 1 1 5E5FDE16
+P 5400 13650
+F 0 "U6" H 5400 14331 50  0000 C CNN
+F 1 "ADS1018IDGS" H 5400 14240 50  0000 C CNN
+F 2 "fossee_openplc:TSSOP-10_3x3mm_P0.5mm" H 5350 13600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1018.pdf" H 4500 14050 50  0001 C CNN
+	1    5400 13650
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:Raspberry_Pi_2_3 J1
+U 1 1 5E38381A
+P 12150 7250
+F 0 "J1" H 12150 8731 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 12150 8640 50  0000 C CNN
+F 2 "fossee_openplc:Raspberry_Pi_Zero_FaceUp_SingleMountingHole" H 12150 7250 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 12150 7250 50  0001 C CNN
+	1    12150 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 8050 12950 8050
+Text GLabel 13400 7150 2    50   Input ~ 0
+DI_3
+Text GLabel 13400 7050 2    50   Input ~ 0
+DI_4
+Text GLabel 6150 7500 2    50   Input ~ 0
+DI_7
+Text GLabel 6150 6150 2    50   Input ~ 0
+DI_1
+Text GLabel 6150 8600 2    50   Input ~ 0
+DI_5
+Text GLabel 6150 6700 2    50   Input ~ 0
+DI_0
+Text GLabel 6150 8050 2    50   Input ~ 0
+DI_6
+Text GLabel 6150 5600 2    50   Input ~ 0
+DI_2
+Text GLabel 6150 5050 2    50   Input ~ 0
+DI_3
+Text GLabel 6150 9150 2    50   Input ~ 0
+DI_4
 $EndSCHEMATC

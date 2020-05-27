@@ -27,7 +27,6 @@ _autosave-*
 *.csv
 
 # Folders
-/workingBranch/*
 /bom
 
 #scripts
