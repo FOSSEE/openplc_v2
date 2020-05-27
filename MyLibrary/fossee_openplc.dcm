@@ -175,6 +175,12 @@ K Darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
 $ENDCMP
 #
+$CMP bergStrip_01x04_Male
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP opt_isolator_PC847
 D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
 K NPN DC Quad Optocoupler
