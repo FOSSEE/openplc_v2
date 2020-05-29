@@ -181,6 +181,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP bergStrip_01x06_Male
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP opt_isolator_PC847
 D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
 K NPN DC Quad Optocoupler

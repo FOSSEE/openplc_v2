@@ -605,40 +605,29 @@ Wire Wire Line
 	19400 8750 19400 8700
 Wire Wire Line
 	19000 8550 19000 8750
-$Comp
-L fossee_openplc:Screw_Terminal_01x12 J5
-U 1 1 5C23AF1C
-P 21550 8850
-F 0 "J5" H 21630 8842 50  0000 L CNN
-F 1 "Screw_Terminal_01x12" V 21750 8400 50  0001 L CNN
-F 2 "fossee_openplc:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal" H 21550 8850 50  0001 C CNN
-F 3 "~" H 21550 8850 50  0001 C CNN
-	1    21550 8850
-	1    0    0    -1  
-$EndComp
-Text Label 21350 9250 2    50   Italic 0
+Text Label 20750 9250 2    50   Italic 0
 1
-Text Label 21350 9350 2    50   Italic 0
+Text Label 20750 9350 2    50   Italic 0
 2
-Text Label 21350 9450 2    50   Italic 0
+Text Label 20750 9450 2    50   Italic 0
 3
-Text Label 21350 8950 2    50   Italic 0
+Text Label 20750 8950 2    50   Italic 0
 4
-Text Label 21350 9050 2    50   Italic 0
+Text Label 20750 9050 2    50   Italic 0
 5
-Text Label 21350 9150 2    50   Italic 0
+Text Label 20750 9150 2    50   Italic 0
 6
-Text Label 21350 8650 2    50   Italic 0
+Text Label 20750 8650 2    50   Italic 0
 7
-Text Label 21350 8750 2    50   Italic 0
+Text Label 20750 8750 2    50   Italic 0
 8
-Text Label 21350 8850 2    50   Italic 0
+Text Label 20750 8850 2    50   Italic 0
 9
-Text Label 21350 8350 2    50   Italic 0
+Text Label 20750 8350 2    50   Italic 0
 10
-Text Label 21350 8450 2    50   Italic 0
+Text Label 20750 8450 2    50   Italic 0
 11
-Text Label 21350 8550 2    50   Italic 0
+Text Label 20750 8550 2    50   Italic 0
 12
 Text Label 19900 7350 0    50   Italic 0
 1
@@ -1216,37 +1205,37 @@ Wire Wire Line
 $Comp
 L fossee_openplc:Screw_Terminal_01x12 J7
 U 1 1 5CBB002E
-P 21550 5600
-F 0 "J7" H 21630 5592 50  0000 L CNN
-F 1 "Screw_Terminal_01x12" V 21750 5150 50  0001 L CNN
-F 2 "fossee_openplc:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal" H 21550 5600 50  0001 C CNN
-F 3 "~" H 21550 5600 50  0001 C CNN
-	1    21550 5600
+P 20900 5350
+F 0 "J7" H 20980 5342 50  0000 L CNN
+F 1 "Screw_Terminal_01x12" V 21100 4900 50  0001 L CNN
+F 2 "fossee_openplc:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal" H 20900 5350 50  0001 C CNN
+F 3 "~" H 20900 5350 50  0001 C CNN
+	1    20900 5350
 	1    0    0    -1  
 $EndComp
-Text Label 21350 6000 2    50   ~ 0
+Text Label 20700 5750 2    50   ~ 0
 13
-Text Label 21350 6100 2    50   ~ 0
+Text Label 20700 5850 2    50   ~ 0
 14
-Text Label 21350 6200 2    50   ~ 0
+Text Label 20700 5950 2    50   ~ 0
 15
-Text Label 21350 5700 2    50   ~ 0
+Text Label 20700 5450 2    50   ~ 0
 16
-Text Label 21350 5800 2    50   ~ 0
+Text Label 20700 5550 2    50   ~ 0
 17
-Text Label 21350 5900 2    50   ~ 0
+Text Label 20700 5650 2    50   ~ 0
 18
-Text Label 21350 5400 2    50   ~ 0
+Text Label 20700 5150 2    50   ~ 0
 19
-Text Label 21350 5500 2    50   ~ 0
+Text Label 20700 5250 2    50   ~ 0
 20
-Text Label 21350 5600 2    50   ~ 0
+Text Label 20700 5350 2    50   ~ 0
 21
-Text Label 21350 5100 2    50   ~ 0
+Text Label 20700 4850 2    50   ~ 0
 22
-Text Label 21350 5200 2    50   ~ 0
+Text Label 20700 4950 2    50   ~ 0
 23
-Text Label 21350 5300 2    50   ~ 0
+Text Label 20700 5050 2    50   ~ 0
 24
 Connection ~ 19500 3900
 Wire Wire Line
@@ -3226,10 +3215,150 @@ Text GLabel 6150 6700 2    50   Input ~ 0
 DI_0
 Text GLabel 6150 8050 2    50   Input ~ 0
 DI_6
-Text GLabel 6150 5600 2    50   Input ~ 0
-DI_2
 Text GLabel 6150 5050 2    50   Input ~ 0
 DI_3
 Text GLabel 6150 9150 2    50   Input ~ 0
 DI_4
+$Comp
+L fossee_openplc:bergStrip_01x06_Male J6
+U 1 1 5ED3F1FE
+P 6900 8350
+F 0 "J6" H 6872 8232 50  0000 R CNN
+F 1 "bergStrip_01x06_Male" H 6872 8323 50  0000 R CNN
+F 2 "fossee_openplc:bergStrip_male_1x06_P2.54mm_Vertical" H 6900 8350 50  0001 C CNN
+F 3 "~" H 6900 8350 50  0001 C CNN
+	1    6900 8350
+	-1   0    0    1   
+$EndComp
+$Comp
+L fossee_openplc:Screw_Terminal_01x12 J5
+U 1 1 5C23AF1C
+P 20950 8850
+F 0 "J5" H 21030 8842 50  0000 L CNN
+F 1 "Screw_Terminal_01x12" V 21150 8400 50  0001 L CNN
+F 2 "fossee_openplc:TerminalBlock_Phoenix_MKDS-1,5-12-5.08_1x12_P5.08mm_Horizontal" H 20950 8850 50  0001 C CNN
+F 3 "~" H 20950 8850 50  0001 C CNN
+	1    20950 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:bergStrip_01x06_Male J15
+U 1 1 5EE72B85
+P 17140 8970
+F 0 "J15" H 17112 8852 50  0000 R CNN
+F 1 "bergStrip_01x06_Male" H 17112 8943 50  0000 R CNN
+F 2 "fossee_openplc:bergStrip_male_1x06_P2.54mm_Vertical" H 17140 8970 50  0001 C CNN
+F 3 "~" H 17140 8970 50  0001 C CNN
+	1    17140 8970
+	-1   0    0    1   
+$EndComp
+$Comp
+L fossee_openplc:bergStrip_01x06_Male J16
+U 1 1 5EE79333
+P 17180 5500
+F 0 "J16" H 17152 5382 50  0000 R CNN
+F 1 "bergStrip_01x06_Male" H 17152 5473 50  0000 R CNN
+F 2 "fossee_openplc:bergStrip_male_1x06_P2.54mm_Vertical" H 17180 5500 50  0001 C CNN
+F 3 "~" H 17180 5500 50  0001 C CNN
+	1    17180 5500
+	-1   0    0    1   
+$EndComp
+Text GLabel 6150 5600 2    50   Input ~ 0
+DI_2
+Text GLabel 3150 7450 2    50   Input ~ 0
+in_1
+Text GLabel 3050 7350 2    50   Input ~ 0
+in_2
+Text GLabel 2900 7250 2    50   Input ~ 0
+in_3
+Text GLabel 2750 7150 2    50   Input ~ 0
+in_4
+Text GLabel 2750 6950 2    50   Input ~ 0
+in_5
+Text GLabel 2900 6850 2    50   Input ~ 0
+in_6
+Text GLabel 3050 6750 2    50   Input ~ 0
+in_7
+Text GLabel 3150 6650 2    50   Input ~ 0
+in_8
+Text GLabel 6700 5850 0    50   Input ~ 0
+in_8
+Text GLabel 6700 5950 0    50   Input ~ 0
+in_7
+Text GLabel 6700 6050 0    50   Input ~ 0
+in_6
+Text GLabel 6700 6150 0    50   Input ~ 0
+in_5
+Text GLabel 6700 8250 0    50   Input ~ 0
+in_4
+Text GLabel 6700 8350 0    50   Input ~ 0
+in_3
+Text GLabel 6700 8450 0    50   Input ~ 0
+in_2
+Text GLabel 6700 8550 0    50   Input ~ 0
+in_1
+$Comp
+L fossee_openplc:+5V #PWR0108
+U 1 1 5ED909B5
+P 6630 5650
+F 0 "#PWR0108" H 6630 5500 50  0001 C CNN
+F 1 "+5V" H 6645 5823 50  0000 C CNN
+F 2 "" H 6630 5650 50  0001 C CNN
+F 3 "" H 6630 5650 50  0001 C CNN
+	1    6630 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L fossee_openplc:bergStrip_01x06_Male J4
+U 1 1 5ED3963E
+P 6900 5950
+F 0 "J4" H 6872 5832 50  0000 R CNN
+F 1 "bergStrip_01x06_Male" H 6872 5923 50  0000 R CNN
+F 2 "fossee_openplc:bergStrip_male_1x06_P2.54mm_Vertical" H 6900 5950 50  0001 C CNN
+F 3 "~" H 6900 5950 50  0001 C CNN
+	1    6900 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 5650 6630 5650
+$Comp
+L fossee_openplc:+5V #PWR0109
+U 1 1 5EE345BA
+P 6610 8050
+F 0 "#PWR0109" H 6610 7900 50  0001 C CNN
+F 1 "+5V" H 6625 8223 50  0000 C CNN
+F 2 "" H 6610 8050 50  0001 C CNN
+F 3 "" H 6610 8050 50  0001 C CNN
+	1    6610 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6610 8050 6700 8050
+$Comp
+L power:GND #PWR0110
+U 1 1 5EEABC0B
+P 6430 8150
+F 0 "#PWR0110" H 6430 7900 50  0001 C CNN
+F 1 "GND" H 6435 7977 50  0000 C CNN
+F 2 "" H 6430 8150 50  0001 C CNN
+F 3 "" H 6430 8150 50  0001 C CNN
+	1    6430 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6430 8150 6700 8150
+$Comp
+L power:GND #PWR0111
+U 1 1 5EEE0F26
+P 6410 5750
+F 0 "#PWR0111" H 6410 5500 50  0001 C CNN
+F 1 "GND" H 6415 5577 50  0000 C CNN
+F 2 "" H 6410 5750 50  0001 C CNN
+F 3 "" H 6410 5750 50  0001 C CNN
+	1    6410 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6410 5750 6700 5750
+NoConn ~ 6550 8010
 $EndSCHEMATC

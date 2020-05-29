@@ -1,4 +1,4 @@
-(module Relay_SPDT_Omron-G5LE-1 (layer F.Cu) (tedit 5AE38B37)
+(module Relay_SPDT_Omron-G5LE-1 (layer F.Cu) (tedit 5ED0DA26)
   (descr "Omron Relay SPDT, http://www.omron.com/ecb/products/pdf/en-g5le.pdf")
   (tags "Omron Relay SPDT")
   (fp_text reference REF** (at 0 -3.8) (layer F.SilkS)
@@ -43,5 +43,10 @@
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Relay_THT.3dshapes/Relay_SPDT_SANYOU_SRD_Series_Form_C.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
   )
 )

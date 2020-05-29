@@ -1,4 +1,4 @@
-update=Wednesday 27 May 2020 12:32:14 PM
+update=Friday 29 May 2020 05:20:48 PM
 version=1
 last_client=kicad
 [general]
@@ -302,7 +302,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/6]
-Name=j2&j6 - inputs
+Name=j14 - inputs
 Clearance=0.4
 TrackWidth=0.6
 ViaDiameter=0.8
