@@ -3241,28 +3241,6 @@ F 3 "~" H 20950 8850 50  0001 C CNN
 	1    20950 8850
 	1    0    0    -1  
 $EndComp
-$Comp
-L fossee_openplc:bergStrip_01x06_Male J15
-U 1 1 5EE72B85
-P 17140 8970
-F 0 "J15" H 17112 8852 50  0000 R CNN
-F 1 "bergStrip_01x06_Male" H 17112 8943 50  0000 R CNN
-F 2 "fossee_openplc:bergStrip_male_1x06_P2.54mm_Vertical" H 17140 8970 50  0001 C CNN
-F 3 "~" H 17140 8970 50  0001 C CNN
-	1    17140 8970
-	-1   0    0    1   
-$EndComp
-$Comp
-L fossee_openplc:bergStrip_01x06_Male J16
-U 1 1 5EE79333
-P 17180 5500
-F 0 "J16" H 17152 5382 50  0000 R CNN
-F 1 "bergStrip_01x06_Male" H 17152 5473 50  0000 R CNN
-F 2 "fossee_openplc:bergStrip_male_1x06_P2.54mm_Vertical" H 17180 5500 50  0001 C CNN
-F 3 "~" H 17180 5500 50  0001 C CNN
-	1    17180 5500
-	-1   0    0    1   
-$EndComp
 Text GLabel 6150 5600 2    50   Input ~ 0
 DI_2
 Text GLabel 3150 7450 2    50   Input ~ 0
@@ -3361,4 +3339,42 @@ $EndComp
 Wire Wire Line
 	6410 5750 6700 5750
 NoConn ~ 6550 8010
+$Comp
+L fossee_openplc:bergStrip_01x04_Male J16
+U 1 1 5EDE97BC
+P 17310 8900
+F 0 "J16" H 17282 8782 50  0000 R CNN
+F 1 "bergStrip_01x04_Male" H 17880 9110 50  0000 R CNN
+F 2 "fossee_openplc:bergStrip_1x04_P2.54mm_Vertical" H 17310 8900 50  0001 C CNN
+F 3 "~" H 17310 8900 50  0001 C CNN
+	1    17310 8900
+	-1   0    0    1   
+$EndComp
+$Comp
+L fossee_openplc:bergStrip_01x04_Male J15
+U 1 1 5EDF22C0
+P 17300 5500
+F 0 "J15" H 17272 5382 50  0000 R CNN
+F 1 "bergStrip_01x04_Male" H 17860 5700 50  0000 R CNN
+F 2 "fossee_openplc:bergStrip_1x04_P2.54mm_Vertical" H 17300 5500 50  0001 C CNN
+F 3 "~" H 17300 5500 50  0001 C CNN
+	1    17300 5500
+	-1   0    0    1   
+$EndComp
+Text GLabel 17110 9000 0    39   Input ~ 0
+DO_0
+Text GLabel 17110 8900 0    39   Input ~ 0
+DO_1
+Text GLabel 17110 8800 0    39   Input ~ 0
+DO_2
+Text GLabel 17110 8700 0    39   Input ~ 0
+DO_3
+Text GLabel 17100 5600 0    39   Input ~ 0
+DO_4
+Text GLabel 17100 5400 0    39   Input ~ 0
+DO_6
+Text GLabel 17100 5300 0    39   Input ~ 0
+DO_7
+Text GLabel 17100 5500 0    39   Input ~ 0
+DO_5
 $EndSCHEMATC

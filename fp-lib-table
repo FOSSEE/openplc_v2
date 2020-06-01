@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name fossee_openplc)(type KiCad)(uri ${KIPRJMOD}/MyLibrary/fossee_openplc.pretty)(options "")(descr ""))
-)
